@@ -1,4 +1,4 @@
-# 100-days-Javascript-Projects-Practice.
-100 Days Javascript Projects Practice
+## Tip Calculator Project Using HTML CSS and Javascript
 
-## Project Live At : 
+
+## Project Live At  :  https://pushpendra-prajapati.github.io/100-days-Javascript-Projects-Practice./
