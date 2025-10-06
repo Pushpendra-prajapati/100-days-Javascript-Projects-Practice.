@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tip Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="tipCalculatorBox">
-            <h1>Tip Calculator</h1>
-            <p>Enter the bill amount and tip percentage to calculate the total.</p>
+      <h1>Tip Calculator</h1>
+      <p class="para-style">Enter the bill amount and tip percentage to calculate the total.</p>
 
-            <label for="bill_amount"> Bill Amount :
-                <input type="number" id="bill_amount">
-            </label>
+      <label for="bill_input" class="para-style">
+        Bill Amount : <br>
+        <input type="number" id="bill_input" />
+      </label>
+      <br>
+      <label for="tip_input" class="para-style">
+        Tip Percentage : <br>
+        <input type="number" id="tip_input" />
+      </label>
+      <br>
+      <button id="calculate_btn">Calculate</button>
 
-            <label for="bill_amount"> Tip Percentage :
-                <input type="number" id="tipPercentage">
-            </label>
-
-            <button id="calculate_btn">Calculate</button>
-
-            <p id="total">Total : <span id="total_amount"></span></p>
-        </div>
+      <p class="para-style">Total : <span id="total_span"></span></p>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

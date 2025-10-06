@@ -1,11 +1,11 @@
-let billAmount = document.querySelector("#bill_amount");
-let tipPercentage = document.querySelector("#tipPercentage");
+let billInput = document.querySelector("#bill_input");
+let tipInput = document.querySelector("#tip_input");
 let calculateBtn = document.querySelector("#calculate_btn");
-let totalAmount = document.querySelector("#total_amount");
+let totalSpan = document.querySelector("#total_span");
 
 const calculateTotal = () => {
-     const totalValue = billAmount.value * (1 + tipPercentage.value/100);
-       totalAmount.innerHTML = totalValue.toFixed(2);
+     const totalValue = billInput.value * (1 + tipInput.value/100);
+       totalSpan.innerHTML = `<b>${totalValue.toFixed(2)}<b>`;
 }
 
 calculateBtn.addEventListener("click", calculateTotal);
